@@ -1,0 +1,94 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+    font-family: 'Arimo', sans-serif;   
+}
+
+body{
+    background-color: #333333;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.container{
+    height: 800px;
+    width: 1000px;
+    background-color: #000000;
+    border-radius: 15px;
+    margin: 40px auto;
+    padding: 10px 50px 50px 50px;
+}
+
+ul{
+    list-style: none;
+    margin: 10px 10px;
+}
+
+.todo{
+    color: white;
+    padding: 15px 0;
+    border-bottom: 1px solid #1c1c1e;
+    
+}
+
+.todo h3{
+    font-weight: 500;
+}
+.todo:first-child{
+    border-top: 1px solid #1c1c1e;
+}
+
+.input-todo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-todo input{
+    width: calc(100% - 2.5em);
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #1c1c1e;
+    font-weight: 700;
+    color: white;
+}
+
+.active{
+    text-decoration: line-through;
+}
+
+.todo-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-text i, .input-todo i{
+    font-size: 1.5em;
+    color: white;
+    font-family: "Font Awesome 5 Free";
+    cursor: pointer;
+}
